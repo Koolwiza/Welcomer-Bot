@@ -12,7 +12,7 @@ client.on('ready', () => {
     client.user.setActivity(``, { // Some status
         type: 'WATCHING'
     })
-    setInterval(() => client.user.setActivity(`discord.gg/rmc | ${client.users.cache.size} users`, {
+    setInterval(() => client.user.setActivity(`devdark | ${client.users.cache.size} users`, {
         type: 'PLAYING'
     }), 1000 * 60 * 2);
 })
@@ -432,4 +432,4 @@ client.on('message', async message => {
 
 })
 
-client.login('') // Token
+client.login('ODAzNjgzNDg0NTA1MDc5ODk4.YBBWkg.PS4xpMoYBELmuw7bvgbNStauO_A')
